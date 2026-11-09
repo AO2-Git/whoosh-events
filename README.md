@@ -49,7 +49,7 @@ Nebula Labs ──┘                                      │
 
 ## Data refresh and deployment
 
-GitHub Actions will run the scraper every six hours. The scraper will:
+GitHub Actions will run the scraper hourly. The scraper will:
 
 1. Fetch both approved event sources while respecting their `robots.txt` rules.
 2. Normalize events into a shared schema and validate the result.
