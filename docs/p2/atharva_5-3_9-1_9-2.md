@@ -32,10 +32,10 @@
 | **QR-04** | UC-01, UC-02, UC-03 | Event, SourceListing | C1, C2 | ADR-02 | None yet (website development in progress) | 
 | **QR-05** | UC-03 | Event | C3 | ADR-01 | None yet (website development in progress) | 
 | **QR-06** | UC-01 | Event, SourceSite, SourceListing | C2 | ADR-02, ADR-03 | None yet (website development in progress) | 
-| **CON-01** | N/A | N/A | C3 | ADR-01 | None yet (website development in progress) | 
+| **CON-01** | | | C3 | ADR-01 | None yet (website development in progress) | 
 | **CON-02** | UC-01, UC-03 | SourceSite, SourceListing | C1 | ADR-02 | None yet (website development in progress) | 
 | **CON-03** | UC-01 | SourceSite | C1 | ADR-02 | None yet (website development in progress) | 
-| **CON-04** | N/A | N/A | C1, C2, C3, C4 | ADR-03 | None yet (website development in progress) |
+| **CON-04** | | | C1, C2, C3, C4 | ADR-03 | None yet (website development in progress) |
 
 
 ## 9.2 Gap analysis 
