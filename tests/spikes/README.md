@@ -5,7 +5,8 @@ questions before production implementation.
 
 ## Current spike
 
-- [`spike1.js`](spike1.js) — initial P2 spike experiment
+- [`S-01/`](S-01/) — initial P2 spike experiment
+- [`S-01/spike1.js`](S-01/spike1.js) — fetches both sources and writes normalized JSON
 
 Each spike should record its purpose, setup, command, measured results, and
 effect on the architecture decision. Keep credentials and other secrets out
