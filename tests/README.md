@@ -5,7 +5,7 @@ This directory contains project verification work.
 ## Folders
 
 - [`spikes/`](spikes/) contains short architecture experiments required for
-  P2. The current experiment is [`spike1.js`](spikes/spike1.js).
+  P2. The current experiment is [`S-01`](spikes/S-01/).
 - [`OtherTests/`](OtherTests/) is reserved for future unit, integration,
   system, and acceptance tests.
 

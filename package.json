@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "spike:s1": "node tests/spikes/S-01/spike1.js"
   },
   "dependencies": {
+    "cheerio": "^1.1.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
