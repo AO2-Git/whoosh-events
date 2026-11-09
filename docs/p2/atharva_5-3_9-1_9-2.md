@@ -28,10 +28,10 @@
 | **FR-12** | UC-02, UC-03 | Event, SourceSite, SourceListing | C3 | ADR-01, ADR-03 | None yet (website development in progress) | 
 | **QR-01** | UC-01 | Event | C3 | QAS-01, ADR-01, ADR-03 | None yet (website development in progress) | 
 | **QR-02** | UC-01 | Event, Tag | C3 | QAS-01, ADR-01, ADR-03 | None yet (website development in progress) | 
-| **QR-03** | UC-01, UC-02 | Event, SourceSite | C1 | ADR-02 | None yet (website development in progress) | 
+| **QR-03** | UC-01, UC-02 | Event, SourceSite | C1 | QAS-02, ADR-02 | None yet (website development in progress) | 
 | **QR-04** | UC-01, UC-02, UC-03 | Event, SourceListing | C1, C2 | ADR-02 | None yet (website development in progress) | 
 | **QR-05** | UC-03 | Event | C3 | ADR-01 | None yet (website development in progress) | 
-| **QR-06** | UC-01 | Event, SourceSite, SourceListing | C2 | ADR-02, ADR-03 | None yet (website development in progress) | 
+| **QR-06** | UC-01 | Event, SourceSite, SourceListing | C2 | QAS-03, ADR-02, ADR-03 | None yet (website development in progress) | 
 | **CON-01** | | | C3 | ADR-01 | None yet (website development in progress) | 
 | **CON-02** | UC-01, UC-03 | SourceSite, SourceListing | C1 | ADR-02 | None yet (website development in progress) | 
 | **CON-03** | UC-01 | SourceSite | C1 | ADR-02 | None yet (website development in progress) | 
@@ -43,4 +43,4 @@
 | :--- | :--- | :--- | 
 | Requirements with no component | N/A (All requirements have at least 1 component) | |
 | Components with no requirement, QAS or ADR | N/A (All components have a requirement, QAS, or ADR) | |
-| Use cases not analyzed (and why that is acceptable) | N/A (Each UC corresponds to at least 1 requirement) | |
+| Use cases not analyzed (and why that is acceptable) | UC-03 to UC-06 (no sequence diagram in 5.2) | Acceptable: UC-03 uses the same objects as UC-02 step 2, and UC-04 to UC-06 are single lookups with no alternate flow that changes the design (see 4.1). |
