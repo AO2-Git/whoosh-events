@@ -19,7 +19,7 @@
 | **FR-03** | UC-03 | Event, SourceListing, SourceSite | C1, C2 | ADR-02, ADR-03 | None yet (website development in progress) | 
 | **FR-04** | UC-06 | SourceSite | C3 | ADR-03 | None yet (website development in progress) | 
 | **FR-05** | UC-01, UC-05 | Event, SourceListing, SourceSite | C1, C2, C3 | ADR-02, ADR-03 | None yet (website development in progress) | 
-| **FR-06** | UC-04 | Event | C3, C4 | ADR-01, ADR-03 | None yet (website development in progress) | 
+| **FR-06** | UC-04 | Event | C3, C4 | ADR-01, ADR-03 | None yet (website development in progress) |
 | **FR-07** | UC-01, UC-02, UC-03 | Event, Organizer, Tag, SourceListing | C3 | ADR-01, ADR-03 | None yet (website development in progress) | 
 | **FR-08** | UC-05 | Event, Organizer | C3 | ADR-01, ADR-03 | None yet (website development in progress) | 
 | **FR-09** | UC-02, UC-03 | Event, SourceListing | C3 | ADR-01, ADR-03 | None yet (website development in progress) | 
@@ -36,3 +36,11 @@
 | **CON-02** | UC-01, UC-03 | SourceSite, SourceListing | C1 | ADR-02 | None yet (website development in progress) | 
 | **CON-03** | UC-01 | SourceSite | C1 | ADR-02 | None yet (website development in progress) | 
 | **CON-04** | N/A | N/A | C1, C2, C3, C4 | ADR-03 | None yet (website development in progress) |
+
+
+## 9.2 Gap analysis 
+| Gap | Items | What you did about it |
+| :--- | :--- | :--- | 
+| Requirements with no component | N/A (All requirements have at least 1 component) | |
+| Components with no requirement, QAS or ADR | N/A (All components have a requirement, QAS, or ADR) | |
+| Use cases not analyzed (and why that is acceptable) | N/A (Each UC corresponds to at least 1 requirement) | |
